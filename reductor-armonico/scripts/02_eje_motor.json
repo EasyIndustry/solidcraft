@@ -1,0 +1,18 @@
+{
+ "commands": [
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 2.5,
+    "height": 16,
+    "base": [
+     0,
+     0,
+     0
+    ],
+    "operation": "new",
+    "body_name": "Eje motor"
+   }
+  }
+ ]
+}

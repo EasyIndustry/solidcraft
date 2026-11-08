@@ -1,0 +1,122 @@
+{
+ "commands": [
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 42.3,
+    "width": 42.3,
+    "height": 40,
+    "corner": [
+     -21.15,
+     -21.15,
+     -40
+    ],
+    "operation": "new",
+    "body_name": "Motor NEMA17"
+   }
+  },
+  {
+   "command": "solid.chamfer",
+   "params": {
+    "edges": [
+     [
+      21.15,
+      21.15,
+      -20
+     ],
+     [
+      -21.15,
+      21.15,
+      -20
+     ],
+     [
+      21.15,
+      -21.15,
+      -20
+     ],
+     [
+      -21.15,
+      -21.15,
+      -20
+     ]
+    ],
+    "distance": 3,
+    "name": "Esquinas motor"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 11,
+    "height": 2,
+    "base": [
+     0,
+     0,
+     0
+    ],
+    "operation": "join",
+    "name": "Pilote motor"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "TornillosMotor",
+    "offset": "0"
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     15.5,
+     15.5
+    ],
+    "diameter": 3
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     15.5,
+     -15.5
+    ],
+    "diameter": 3
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -15.5,
+     15.5
+    ],
+    "diameter": 3
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -15.5,
+     -15.5
+    ],
+    "diameter": 3
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": "-4",
+    "name": "Roscas motor",
+    "operation": "cut"
+   }
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "commands": [
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 42.3,
+    "width": 42.3,
+    "height": 6,
+    "center": [
+     0,
+     0,
+     3
+    ],
+    "operation": "new",
+    "body_name": "Adaptador"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "edges": [
+     [
+      21.15,
+      21.15,
+      3
+     ],
+     [
+      -21.15,
+      21.15,
+      3
+     ],
+     [
+      21.15,
+      -21.15,
+      3
+     ],
+     [
+      -21.15,
+      -21.15,
+      3
+     ]
+    ],
+    "radius": 4,
+    "name": "Esquinas adaptador"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 11.2,
+    "height": 2.2,
+    "base": [
+     0,
+     0,
+     0
+    ],
+    "operation": "cut",
+    "name": "Alojamiento pilote"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4.5,
+    "height": 8,
+    "base": [
+     0,
+     0,
+     -1
+    ],
+    "operation": "cut",
+    "name": "Paso eje"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "TornillosMotorAdaptador",
+    "offset": "6"
+   }
+  },
+  {
+   "command": "sketch.point",
+   "params": {
+    "point": [
+     15.5,
+     15.5
+    ]
+   }
+  },
+  {
+   "command": "sketch.point",
+   "params": {
+    "point": [
+     15.5,
+     -15.5
+    ]
+   }
+  },
+  {
+   "command": "sketch.point",
+   "params": {
+    "point": [
+     -15.5,
+     15.5
+    ]
+   }
+  },
+  {
+   "command": "sketch.point",
+   "params": {
+    "point": [
+     -15.5,
+     -15.5
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.hole",
+   "params": {
+    "sketch": "TornillosMotorAdaptador",
+    "diameter": 3.4,
+    "type": "counterbore",
+    "cb_diameter": 6,
+    "cb_depth": 3,
+    "name": "Agujeros motor"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "RoscasFijacion",
+    "offset": "6"
+   }
+  },
+  {
+   "command": "sketch.point",
+   "params": {
+    "point": [
+     18.9395,
+     7.845
+    ]
+   }
+  },
+  {
+   "command": "sketch.point",
+   "params": {
+    "point": [
+     -7.845,
+     18.9395
+    ]
+   }
+  },
+  {
+   "command": "sketch.point",
+   "params": {
+    "point": [
+     -18.9395,
+     -7.845
+    ]
+   }
+  },
+  {
+   "command": "sketch.point",
+   "params": {
+    "point": [
+     7.845,
+     -18.9395
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.hole",
+   "params": {
+    "sketch": "RoscasFijacion",
+    "diameter": 2.5,
+    "depth": 5,
+    "name": "Roscas fijacion"
+   }
+  }
+ ]
+}

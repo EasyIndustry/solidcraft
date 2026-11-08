@@ -1,0 +1,129 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "Leva",
+    "offset": "7"
+   }
+  },
+  {
+   "command": "sketch.ellipse",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "major": [
+     15.25,
+     0
+    ],
+    "minor_radius": 14.45,
+    "axes": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "diameter": 5.04
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 6.5,
+    "name": "Leva eliptica",
+    "body_name": "Generador de onda"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "CuelloInf",
+    "offset": "6.2"
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "diameter": 10
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "diameter": 5.04
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 0.8,
+    "name": "Cuello inferior",
+    "operation": "join"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "CuelloSup",
+    "offset": "13.5"
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "diameter": 10
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "diameter": 5.04
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 2.5,
+    "name": "Cuello superior",
+    "operation": "join"
+   }
+  }
+ ]
+}
