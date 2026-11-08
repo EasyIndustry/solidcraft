@@ -1,0 +1,19 @@
+{
+ "commands": [
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 2.5,
+    "height": 35.5,
+    "base": [
+     0,
+     0,
+     0.5
+    ],
+    "operation": "new",
+    "name": "Eje entrada",
+    "body_name": "Eje entrada"
+   }
+  }
+ ]
+}

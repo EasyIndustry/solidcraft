@@ -1,0 +1,132 @@
+{
+ "commands": [
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 11,
+    "base": [
+     23.2,
+     27,
+     6
+    ],
+    "operation": "new",
+    "name": "Columna 1",
+    "body_name": "Columna 1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 1.25,
+    "height": 11,
+    "base": [
+     23.2,
+     27,
+     6
+    ],
+    "operation": "cut",
+    "name": "Rosca columna 1",
+    "targets": [
+     "Columna 1"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 11,
+    "base": [
+     23.2,
+     -27,
+     6
+    ],
+    "operation": "new",
+    "name": "Columna 2",
+    "body_name": "Columna 2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 1.25,
+    "height": 11,
+    "base": [
+     23.2,
+     -27,
+     6
+    ],
+    "operation": "cut",
+    "name": "Rosca columna 2",
+    "targets": [
+     "Columna 2"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 11,
+    "base": [
+     -23.2,
+     27,
+     6
+    ],
+    "operation": "new",
+    "name": "Columna 3",
+    "body_name": "Columna 3"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 1.25,
+    "height": 11,
+    "base": [
+     -23.2,
+     27,
+     6
+    ],
+    "operation": "cut",
+    "name": "Rosca columna 3",
+    "targets": [
+     "Columna 3"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 4,
+    "height": 11,
+    "base": [
+     -23.2,
+     -27,
+     6
+    ],
+    "operation": "new",
+    "name": "Columna 4",
+    "body_name": "Columna 4"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 1.25,
+    "height": 11,
+    "base": [
+     -23.2,
+     -27,
+     6
+    ],
+    "operation": "cut",
+    "name": "Rosca columna 4",
+    "targets": [
+     "Columna 4"
+    ]
+   }
+  }
+ ]
+}

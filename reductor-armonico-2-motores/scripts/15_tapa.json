@@ -1,0 +1,244 @@
+{
+ "commands": [
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "ParedTapa",
+    "offset": "33"
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "diameter": 51.2
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "diameter": 46.400000000000006
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     25.4067,
+     10.5238
+    ],
+    "diameter": 5.8
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -10.5238,
+     25.4067
+    ],
+    "diameter": 5.8
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -25.4067,
+     -10.5238
+    ],
+    "diameter": 5.8
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     10.5238,
+     -25.4067
+    ],
+    "diameter": 5.8
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     25.4067,
+     10.5238
+    ],
+    "diameter": 3.4
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -10.5238,
+     25.4067
+    ],
+    "diameter": 3.4
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -25.4067,
+     -10.5238
+    ],
+    "diameter": 3.4
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     10.5238,
+     -25.4067
+    ],
+    "diameter": 3.4
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 5.5,
+    "name": "Cuerpo tapa",
+    "body_name": "Tapa"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "PlacaTapa",
+    "offset": "38.5"
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "diameter": 51.2
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "diameter": 12.4
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     25.4067,
+     10.5238
+    ],
+    "diameter": 5.8
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -10.5238,
+     25.4067
+    ],
+    "diameter": 5.8
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -25.4067,
+     -10.5238
+    ],
+    "diameter": 5.8
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     10.5238,
+     -25.4067
+    ],
+    "diameter": 5.8
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     25.4067,
+     10.5238
+    ],
+    "diameter": 3.4
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -10.5238,
+     25.4067
+    ],
+    "diameter": 3.4
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -25.4067,
+     -10.5238
+    ],
+    "diameter": 3.4
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     10.5238,
+     -25.4067
+    ],
+    "diameter": 3.4
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": 2,
+    "name": "Placa tapa",
+    "operation": "join"
+   }
+  }
+ ]
+}

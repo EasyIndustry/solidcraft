@@ -1,0 +1,122 @@
+{
+ "commands": [
+  {
+   "command": "solid.box",
+   "params": {
+    "length": 42.3,
+    "width": 42.3,
+    "height": 40,
+    "corner": [
+     -67.15,
+     -21.15,
+     -40
+    ],
+    "operation": "new",
+    "body_name": "Motor B"
+   }
+  },
+  {
+   "command": "solid.chamfer",
+   "params": {
+    "edges": [
+     [
+      -24.85,
+      21.15,
+      -20
+     ],
+     [
+      -24.85,
+      -21.15,
+      -20
+     ],
+     [
+      -67.15,
+      21.15,
+      -20
+     ],
+     [
+      -67.15,
+      -21.15,
+      -20
+     ]
+    ],
+    "distance": 3,
+    "name": "Esquinas motor B"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": 11,
+    "height": 2,
+    "base": [
+     -46.0,
+     0,
+     0
+    ],
+    "operation": "join",
+    "name": "Pilote motor B"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "TornillosMotorB",
+    "offset": "0"
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -30.5,
+     15.5
+    ],
+    "diameter": 3
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -30.5,
+     -15.5
+    ],
+    "diameter": 3
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -61.5,
+     15.5
+    ],
+    "diameter": 3
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -61.5,
+     -15.5
+    ],
+    "diameter": 3
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": "-4",
+    "name": "Roscas motor B",
+    "operation": "cut"
+   }
+  }
+ ]
+}
